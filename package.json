@@ -1,0 +1,21 @@
+{
+  "name": "concertcion-asistentes",
+  "version": "1.0.0",
+  "description": "API REST para administración de películas favoritas de trabajadores y colaboradores en Iplacex",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Concertcion - cynthia_quispe",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mongodb": "^6.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
